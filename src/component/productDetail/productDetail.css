@@ -1,0 +1,84 @@
+/* Contenedor principal */
+.contenedor {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  /* Imagen del producto */
+  .imagen {
+    max-width: 40%;
+    height: auto;
+    margin-right: 20px;
+  }
+  
+  /* Texto de detalles del producto */
+  .texto {
+    flex-grow: 1;
+    text-align: left;
+  }
+  
+  /* Nombre del producto */
+  h1 {
+    font-size: 24px;
+    font-weight: bold;
+    margin: 10px 0;
+  }
+  
+  /* Color del producto */
+  p {
+    font-size: 16px;
+    margin: 5px 0;
+  }
+  
+  /* Precio del producto */
+  .precio {
+    font-size: 24px;
+    font-weight: bold;
+    margin: 10px 0;
+  }
+  
+ /* Estilo para la descripción del producto */
+.descripcion {
+    font-size: 18px;
+    margin: 10px 0;
+    padding: 10px; /* Agregamos un relleno para separar el texto del borde */
+    border: 1px solid #ddd; /* Borde alrededor del área de descripción */
+    background-color: #f7f7f7; /* Fondo gris claro */
+    border-radius: 5px; /* Bordes redondeados */
+    box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.2); /* Sombra ligera alrededor del borde */
+    text-align: center; /* Centrar el texto horizontalmente */
+  }
+  
+  
+  
+  /* Estilos adicionales para pantallas pequeñas (móviles) */
+  @media screen and (max-width: 768px) {
+    .contenedor {
+      flex-direction: column;
+      text-align: center;
+    }
+  
+    .imagen {
+      max-width: 100%;
+      margin: 0 auto;
+    }
+  
+    h1 {
+      font-size: 20px;
+    }
+  
+    p {
+      font-size: 14px;
+    }
+  
+    .precio {
+      font-size: 20px;
+    }
+  
+    .descripcion {
+      font-size: 16px;
+    }
+  }
+  

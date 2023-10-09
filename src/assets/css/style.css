@@ -1,0 +1,111 @@
+/* *{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+} */
+
+body {
+    background-color: rgb(244, 244, 249);
+}
+/* aca empieza los estilos de header */
+/* .btn-wsp{
+    position: fixed;
+    width: 55px;
+    height: 55px;
+    line-height: 55px;
+    bottom: 30px;
+    right: 30px;
+    background-color: #0df053;
+    color: #fff;
+    border-radius: 50px;
+    text-align: center;
+    font-size: 30px;
+    box-shadow: 0px, 1px, 10px rgb(0, 0, 0, 0.3);
+    z-index: 100;
+}
+.btn-wsp.hover{
+    text-decoration: none;
+    color:#0df053;
+    background: #fff;
+}
+.header{
+  height: 220px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50% 30%;
+  padding: 30px 0;
+}
+
+.nav-item{
+  display: inline-block;
+  margin: 0 25px;
+  font-size: 150%;
+}
+
+.nav-item > a {
+  text-decoration: none;
+  color: rgb(58, 46, 66);
+  font-size: 20px;
+  font-weight: 700;
+} */
+
+/* Estilos de la sección de productos */
+/* .hero {
+  background-image: url("../imagenes/poster.jpg"); 
+  background-size: cover;
+  background-position: center;
+  height: 600px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+.display-4{
+  color: #d6b186;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+  
+.products {
+  padding: 50px 0;
+}
+  
+.products .card {
+  margin-bottom: 30px;
+}
+  
+.footer {
+  background-color: #333;
+  color: #fff;
+  padding: 50px 0;
+}
+  
+.footer h5 {
+  font-size: 16px;
+  margin-bottom: 15px;
+}
+  
+.footer ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+  
+.footer ul li {
+  margin-bottom: 10px;
+}
+  
+.footer ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+  
+.footer-bottom {
+  background-color: #222;
+  padding: 10px 0;
+  text-align: center;
+}
+  
+.footer-bottom p {
+  margin: 0;
+  font-size: 15px;
+} */

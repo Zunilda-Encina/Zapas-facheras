@@ -1,0 +1,129 @@
+/*NAVBAR*/
+/* Estilos para enlaces en pantallas grandes (mayor de 768px) */
+@media (min-width: 768px) {
+  a {
+    font-size: 18px; 
+    /* Tamaño de fuente más grande para pantallas grandes */
+  }
+}
+
+/* Estilos para enlaces en pantallas medianas (entre 576px y 768px) */
+@media (min-width: 576px) and (max-width: 767px) {
+  a {
+    font-size: 16px; 
+    /* Tamaño de fuente mediano para pantallas medianas */
+  }
+}
+
+/* Estilos para enlaces en pantallas pequeñas (menor de 576px) */
+@media (max-width: 575px) {
+  a {
+    font-size: 14px;
+    /* Tamaño de fuente más pequeño para pantallas pequeñas */
+  }
+}
+
+#root {
+  /* max-width: 1280px; */
+  margin: 0 auto;
+  padding: 0 auto;
+  /* text-align: center; */
+} 
+
+ /* .logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+} */
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+} 
+/*  NO SABEMOS QUE ES ESTO  */
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+
+ *{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+} 
+
+body {
+  background-color: rgb(33, 150, 228);
+}
+/* -------------------------------BOTON DE WHATSAPP---------------------------- */
+.btn-wsp{
+  position: fixed;
+  width: 55px;
+  height: 55px;
+  line-height: 55px;
+  bottom: 30px;
+  right: 30px;
+  background-color: #0df053;
+  color: #fff;
+  border-radius: 50px;
+  text-align: center;
+  font-size: 30px;
+  box-shadow: 0px, 1px, 10px rgb(0, 0, 0, 0.3);
+  z-index: 100;
+}
+.btn-wsp.hover{
+  text-decoration: none;
+  color:#0df053;
+  background: #fff;
+}
+
+
+
+/* ------------------------------------Estilos de la sección de productos -----------------------------------------*/
+.hero {
+background-image: url("./assets/imagenes/poster.png"); 
+background-size: cover;
+background-position: center;
+height: 700px;
+display: flex;
+align-items: center;
+justify-content: center;
+text-align: center;
+margin-top:70px;
+}
+.display-4{
+color: #d6b186;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.products {
+padding: 50px 0;
+}
+
+.products .card {
+margin-bottom: 30px;
+}
+/*-------------------------------------------ACA ARRANCA EL FOOTER----------------------------------------------------*/
+
+/*ACA TERMINA EL FOOTER*/

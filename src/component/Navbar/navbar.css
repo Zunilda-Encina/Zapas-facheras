@@ -1,0 +1,105 @@
+/* Estilos para enlaces en pantallas grandes (mayor de 768px) */
+@media (min-width: 768px) {
+    a {
+      font-size: 18px; /* Tamaño de fuente más grande para pantallas grandes */
+    }
+  }
+  
+  /* Estilos para enlaces en pantallas medianas (entre 576px y 768px) */
+  @media (min-width: 576px) and (max-width: 767px) {
+    a {
+      font-size: 16px; /* Tamaño de fuente mediano para pantallas medianas */
+    }
+  }
+  
+  /* Estilos para enlaces en pantallas pequeñas (menor de 576px) */
+  @media (max-width: 575px) {
+    a {
+      font-size: 14px; /* Tamaño de fuente más pequeño para pantallas pequeñas */
+      .titulo{
+        display: none;
+      }
+    }
+  }
+
+.allNavBox {
+    padding: 0px 20px;
+    font-family: System-ui;
+    background-color: #9eddff83;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    position: fixed;
+    top: 0;
+    width: 100%; /* Ocupa todo el ancho del viewport */
+    z-index: 1000; /* Asegura que esté por encima de otros elementos */
+    /* text-align:end; */
+}
+
+.logoBox{
+  display: flex;
+  align-items: center;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.imgLogo{
+  width: 70px;
+}
+
+.navBox{
+  display: flex;
+  justify-content: space-around;
+  width: 18%;
+  height: 100%;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+}
+
+.ulNav{
+  display: flex;
+  justify-content: space-around;
+  width: 400px;
+  padding: 0;
+  margin:0;
+  align-items: center;
+}
+
+.listaNav{
+  display: flex;
+  align-items: center;
+  
+
+}
+
+.itemNav{ /*TODOS LOS LINKS CON LA CLASE ITEMNAV*/
+  display: flex;
+  align-items: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: x-large;
+  border-radius: 8px;
+  color: #111;
+  text-decoration: none;
+  position: relative;
+  padding: 5px;
+  transition: pading 0.3s, border-color 0.3s;
+}
+
+.itemNav::before{
+   /* Elemento cuadrado generado antes del enlace */
+   content: ''; /* Contenido vacío necesario para generar un elemento ::before */
+   position: absolute;
+   top: -5px; /* Coloca el cuadrado encima del enlace */
+   left: -5px; /* Coloca el cuadrado a la izquierda del enlace */
+   right: -5px; /* Coloca el cuadrado a la derecha del enlace */
+   bottom: -5px; /* Coloca el cuadrado debajo del enlace */
+   opacity: 0; /* Inicialmente, el cuadrado no es visible */
+   transition: opacity 0.3s; /* Transición suave de opacidad durante 0.3 segundos */
+  
+}
+.itemNav:hover{
+  padding: 8px;
+  color: #fff;
+  background-color: #007bff;
+}

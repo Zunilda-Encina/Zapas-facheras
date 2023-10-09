@@ -1,0 +1,79 @@
+/* Estilos base para el contenedor del formulario de búsqueda */
+.search-container {
+  color: black;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    position: relative; 
+    width: 500px;
+  }
+  
+  /* Estilos para el campo de entrada de búsqueda */
+  .search-input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  /* Estilos para el botón de búsqueda */
+  .search-button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  /* Estilos para los resultados de búsqueda */
+  .search-results {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    max-height: 300px;
+    overflow-y: auto;
+    z-index: 1;
+  }
+  
+  /* Estilos para cada resultado de búsqueda */
+  .search-result {
+    display: flex;
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+  }
+  
+  /* Estilos para el enlace del título de búsqueda */
+  .search-link {
+    text-decoration: none;
+    color: #007bff;
+  }
+  
+  /* Estilos para el título de búsqueda */
+  .search-title {
+    margin-top: 0;
+  }
+  
+  /* Estilos para las imágenes de búsqueda */
+  .search-image {
+    height: 100px;
+    width: 100px;
+    max-width: 100%;
+    height: auto;
+  }
+  .search-info{
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    padding-left: 20px;
+  }
+  
+  
