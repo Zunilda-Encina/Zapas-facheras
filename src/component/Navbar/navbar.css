@@ -30,7 +30,7 @@
     align-items: center;
     justify-content: space-between;
     flex-wrap: wrap;
-    position: fixed;
+   /* position: fixed;
     top: 0;
     width: 100%; /* Ocupa todo el ancho del viewport */
     z-index: 1000; /* Asegura que esté por encima de otros elementos */
@@ -70,7 +70,6 @@
   display: flex;
   align-items: center;
   
-
 }
 
 .itemNav{ /*TODOS LOS LINKS CON LA CLASE ITEMNAV*/

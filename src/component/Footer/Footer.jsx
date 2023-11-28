@@ -8,7 +8,7 @@ function Footer(){
         <section className="Footer">
             <footer className="footer">
     <div className="container">
-    <img className='logo' src="https://cdn.discordapp.com/attachments/1154158862199435424/1154158885733675110/LOGOJORDAN_001.png" alt="" />
+    {/* <img className='logo' src="https://cdn.discordapp.com/attachments/1154158862199435424/1154158885733675110/LOGOJORDAN_001.png" alt="" />  */}
 
       <div className="row">
         <div className="col-md-3">

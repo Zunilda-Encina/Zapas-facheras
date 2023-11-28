@@ -25,6 +25,10 @@ function ProductDetail({ modelos }){
                     <p>Talles disponibles: {producto.talle.join(', ')}</p>
                     <p className="precio">US$ {producto.precio}</p>
                     <p className="descripcion">{producto.Description}</p>
+                    <ul className="comprar">
+                    <button className="carrito"  type="submit" onClick={()=>alert('Comprar')}>Comprar</button>
+                    <button className="carrito"  type="submit" onClick={()=>alert('Agregar al carrito')}>Agregar al carrito</button>
+                    </ul>
                 </div>
             </div>
         </>
