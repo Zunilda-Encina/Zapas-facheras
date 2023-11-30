@@ -1,27 +1,70 @@
 /* Estilos para enlaces en pantallas grandes (mayor de 768px) */
-@media (min-width: 768px) {
-    a {
-      font-size: 18px; /* Tamaño de fuente más grande para pantallas grandes */
-    }
+@media screen and (max-width: 768px) {
+  .allNavBox {
+    flex-direction: column;
+    align-items: center;
   }
-  
+
+  }
+
+    @media screen and (min-width: 768px) and (max-width: 1200px) {
+      .allNavBox { 
+    flex-direction: column;
+    align-items: center;
+      }
+    .navBox {
+    margin-top: 10px;
+    }
+    .ulNav {    
+    flex-direction: wrap;
+    align-items: center;
+      } 
+    .listaNav {
+        margin: 5px 0;
+      }
+    }
+    
   /* Estilos para enlaces en pantallas medianas (entre 576px y 768px) */
   @media (min-width: 576px) and (max-width: 767px) {
     a {
       font-size: 16px; /* Tamaño de fuente mediano para pantallas medianas */
     }
+    .allNavBox {
+      display: flex;
+      justify-content: space-between;
+      padding: 10px;
+    }
+    .ulNav {    
+      flex-direction: column;
+      align-items: center;
+        } 
+    .logoBox {
+      display: flex;
+      align-items: center;
+    }
   }
   
   /* Estilos para enlaces en pantallas pequeñas (menor de 576px) */
-  @media (max-width: 575px) {
-    a {
-      font-size: 14px; /* Tamaño de fuente más pequeño para pantallas pequeñas */
-      .titulo{
-        display: none;
-      }
+  @media screen and (min-width: 300px) and (max-width: 575px) {
+    .allNavBox {
+  flex-direction: column;
+  align-items: center;
+    }
+  .navBox {
+  margin-top: 10px;
+  }
+    .ulNav {
+      flex-direction: column;
+      align-items: center;
+    }
+    .listaNav {  
+  margin: 5px 0;
+    }
+    .buscador {
+      width: 100%; 
     }
   }
-
+  
 .allNavBox {
     padding: 0px 20px;
     font-family: System-ui;

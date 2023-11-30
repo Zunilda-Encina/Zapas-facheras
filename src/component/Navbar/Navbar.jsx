@@ -28,11 +28,12 @@ const NavBar = ({ user, setUser, modelos }) => {
               </ul>
               {/* <Link to='/Login' className='itemNav'>Login</Link> */}
             </div>
-
+            
+            <div className='buscador'>
             <div className={`search-bar ${isOpen ? 'open' : ''}`}>
               <SearchBar modelos={modelos} />
             </div> 
-                   
+            </div>     
           </div>
       </header>
   );
