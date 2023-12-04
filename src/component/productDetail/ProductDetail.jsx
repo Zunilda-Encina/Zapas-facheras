@@ -22,11 +22,14 @@ function ProductDetail({ modelos }){
                 <img className="imagen" src={producto.imagen} alt="imagen" />
                 <div className="texto">
                     <h1>{producto.nombre}</h1>
-                    <p>Talles disponibles: {producto.talle.join(', ')}</p>
+                    <p className="talles"> Talles disponibles: 
+                    {producto.talle.map((talle, index) => (
+                    <span key={index}>{talle}</span> ))}
+                    </p>
                     <p className="precio">US$ {producto.precio}</p>
                     <p className="descripcion">{producto.Description}</p>
                     <ul className="comprar">
-                    <button className="carrito"  type="submit" onClick={()=>alert('Agregar al carrito')}>Agregar al carrito</button>
+                    <button className="carrito"  type="submit" onClick={()=>alert('Se agrego a tu carrito')}>Agregar al carrito</button>
                     </ul>
                 </div>
             </div>
